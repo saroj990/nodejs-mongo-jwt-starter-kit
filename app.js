@@ -1,11 +1,11 @@
 import express from "express";
 import morgan from "morgan";
-import routes from "./app/routes";
-import mongo from "./app/util/mongo";
+import routes from "./routes";
+import mongo from "./util/mongo";
 import bodyParser from "body-parser";
 import cors from "cors";
 import * as dotenv from "dotenv";
-import User from "./app/user/user-controller";
+import User from "./user/user-controller";
 
 dotenv.config();
 
